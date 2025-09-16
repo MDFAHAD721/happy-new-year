@@ -1,7 +1,114 @@
-.merriweather-normal {
-  font-family: "Merriweather", serif;
+/* TWO FONTS FOR WEBSITE */
+.merriweather-normal{
+  font-family: "Merriweather";
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal
+}
+/* COMMON STYLES */
+.white{
+    color: #FFFFFF;
+}
+.red{
+    color: #FF0000;
+}
+.black{
+    color: #070211;
+}
+/* HEADER STYLES */
+.banner-wrapper{
+    margin-top: 50px;
+}
+.header{
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    background: linear-gradient( rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)) ,
+    url(../images/images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+/* BANNER STYLES */
+.banner-title{
+    font-size: 32px;
+    margin-bottom: 16px;       
+}
+.banner-sub-title{
+    font-size: 72px;
+    margin-top: 0px;
+}
+/* DISCOUNT SECTION STYLES */
+.body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.discount-section{
+   width: 802px;
+   height: 806px;
+   margin: 120px 260px;
+}
+.discount-title{
+    font-size: 88px;    
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.discount-sub-title{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.discount-second-sub-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 48px;
+}
+.happynewyear{
+    width: 802px;
+    height: 500px;
+    margin-top: 0%;
+}
+/* WELCOME SECTION */
+.welcome-section{
+    display: flex;
+    padding: 68px 138px;
+    gap: 40px;
+    background: linear-gradient(to right ,rgba(7, 2, 17, 1) , rgba(7, 2, 17, 0)) , url(../images/images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    align-items: center;
+}
+.Welcome-title{
+    font-size: 64px;
+    letter-spacing: 11px;
+    margin-bottom: 24px;
+}
+.welcome-description{
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+.welcome a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.welcome-image{
+    width: 320px;
+    height: 465px;
 }
