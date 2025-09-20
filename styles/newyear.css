@@ -11,6 +11,11 @@
   font-optical-sizing: auto;
   font-style: normal
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* COMMON STYLES */
 .white{
     color: #FFFFFF;
@@ -290,4 +295,49 @@
     padding: 24px 54px;
     border: none;
     border-radius: 0px 500px 500px 0px;
+}
+/* FOOTER SYLES */
+footer{
+    background-color: #070211;
+    width: 100%;
+}
+.footer-section{
+    margin: 0%;
+}
+.contact{
+    padding-top: 120px;
+    padding-right: 275px;
+    padding-bottom: 100px;
+}
+.address{
+    font-size: 24px;
+    padding-top: 120px;
+    padding-left:140px ;
+    padding-bottom: 100px;
+}
+.address-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.footer-images{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.ft-img{
+    margin-right: 24px;   
+}
+.last-items{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 120px;
 }
